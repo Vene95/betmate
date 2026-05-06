@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <title>Terms of Use — BetMate</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="brand">
+      <div class="logo">B</div>
+      <div>
+        <div class="name">BetMate</div>
+        <div class="subtitle">Betting market analytics</div>
+      </div>
+    </header>
+
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html" class="active">Terms of Use</a>
+    </nav>
+
+    <h1>Terms of Use</h1>
+    <p class="meta">Effective date: <span id="effective-date"></span></p>
+
+    <p>These Terms of Use (&ldquo;Terms&rdquo;) govern your use of the
+    BetMate mobile application (the &ldquo;App&rdquo;). By installing or
+    using the App you agree to these Terms. If you do not agree, do not
+    use the App.</p>
+
+    <h2>1. Informational purpose only</h2>
+    <p>The predictions, statistics and market figures shown in the App are
+    provided <strong>for informational and entertainment purposes only</strong>.
+    They do not constitute betting advice, financial advice, or any form
+    of guarantee. Past market behaviour does not predict future results.</p>
+
+    <h2>2. Data source &amp; AI analysis</h2>
+    <p>All match information is aggregated from publicly available betting
+    market data. Predictions are produced with the help of automated
+    algorithms, including AI-based analysis of money distribution, odds
+    movements and historical trends. The output reflects statistical
+    likelihood, not certainty.</p>
+
+    <h2>3. No liability</h2>
+    <p>You use the App at your own risk. The developer accepts no
+    responsibility for any losses, financial or otherwise, incurred from
+    acting on information shown in the App. Any decision to place bets is
+    your sole responsibility.</p>
+
+    <h2>4. Eligibility &amp; responsible gambling</h2>
+    <p>You must be <strong>at least 18 years old</strong> (or the legal
+    gambling age in your jurisdiction, whichever is higher) to use the App.
+    Gambling can be addictive. Bet only what you can afford to lose. If you
+    or someone you know may have a problem, please seek help:</p>
+    <ul>
+      <li><a href="https://www.begambleaware.org" target="_blank" rel="noopener">BeGambleAware</a></li>
+      <li><a href="https://www.gamcare.org.uk" target="_blank" rel="noopener">GamCare</a></li>
+    </ul>
+
+    <h2>5. Compliance with local law</h2>
+    <p>You are responsible for ensuring that your use of the App complies
+    with the laws of the jurisdiction where you are located. In some
+    territories, accessing or acting on betting market information may be
+    restricted or prohibited. Do not use the App if doing so would violate
+    applicable law.</p>
+
+    <h2>6. Acceptable use</h2>
+    <p>You agree not to:</p>
+    <ul>
+      <li>Reverse-engineer, decompile, or attempt to extract source code or data feeds from the App, except as permitted by law</li>
+      <li>Use the App for any unlawful purpose</li>
+      <li>Resell, republish, or redistribute the data displayed in the App without permission</li>
+      <li>Interfere with the security, integrity, or availability of the App or its backend services</li>
+    </ul>
+
+    <h2>7. Intellectual property</h2>
+    <p>The App, its design and code are owned by the developer. The
+    underlying market data is sourced from public information and is
+    presented in an analytical, transformative form. Trademarks of any
+    third parties referenced (leagues, teams, etc.) are property of their
+    respective owners.</p>
+
+    <h2>8. Advertising</h2>
+    <p>The App is supported by advertising served via Google AdMob. By
+    using the App you acknowledge that ads will be displayed. Ad practices
+    are described in our <a href="privacy.html">Privacy Policy</a>.</p>
+
+    <h2>9. Service availability</h2>
+    <p>The App relies on third-party services and a personal-scale backend
+    infrastructure. We do not guarantee uninterrupted availability,
+    timeliness, or accuracy of the data displayed. The App may be modified,
+    suspended, or discontinued at any time without notice.</p>
+
+    <h2>10. Disclaimer of warranties</h2>
+    <p>The App is provided <strong>&ldquo;as is&rdquo; and &ldquo;as
+    available&rdquo;</strong>, without warranties of any kind, whether
+    express or implied, including merchantability, fitness for a particular
+    purpose, or non-infringement.</p>
+
+    <h2>11. Changes to these Terms</h2>
+    <p>We may update these Terms occasionally. The &ldquo;Effective date&rdquo;
+    at the top will reflect the latest version. Continued use of the App
+    after changes constitutes acceptance.</p>
+
+    <h2>12. Contact</h2>
+    <p>For questions about these Terms, contact us at:</p>
+    <div class="contact-card">
+      <div class="label">Email</div>
+      <div class="email">vvvaidevelopment@gmail.com</div>
+    </div>
+
+    <div class="callout warn" style="margin-top: 28px">
+      By installing or continuing to use the App, you confirm that you have
+      read, understood and agreed to these Terms of Use and to the
+      <a href="privacy.html">Privacy Policy</a>.
+    </div>
+
+    <footer>
+      &copy; <span id="year"></span> BetMate. All rights reserved.
+    </footer>
+  </div>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('effective-date').textContent =
+      new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+  </script>
+</body>
+</html>
